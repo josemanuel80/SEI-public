@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+picture {
+  display: block;
+}
+
+label {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.countries {
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.countries article {
+  flex-basis: 20%;
+  border: 1px solid gray;
+  padding: 1.25rem 0.75rem;
+  margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.countries article:nth-of-type(4n) {
+  margin-right: 0;
+}
+
+.countries article p:first-of-type {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 0;
+}

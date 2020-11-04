@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url('../images/animal.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1.25rem;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  min-width: 75%;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 4em;
+}
+
+section {
+  display: flex;
+}
+
+section > div {
+  flex-basis: calc(100% / 9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.75rem;
+  transition: all 0.07s ease;
+  background-color: white;
+
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 0.5rem black;
+}
+
+section > div:last-of-type {
+  margin-right: 0;
+}
+
+kbd,
+span {
+  display: block;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+span {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
+
+section > div.playing {
+  transform: scale(1.1);
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.7);
+}

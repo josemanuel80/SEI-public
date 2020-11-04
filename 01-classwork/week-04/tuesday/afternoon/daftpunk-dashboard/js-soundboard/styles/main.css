@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1px;
+}
+
+section > div {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.1rem;
+  /*transition: all 0.07s ease;*/
+}
+
+section > div > p {
+  color: white;
+  margin: 5rem;
+}
+
+html {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Countries</title>
+    <link rel="stylesheet" href="./styles/css/main.css" />
+  </head>
+  <body>
+    <main>
+      <h1>REST Countries</h1>
+      <section class="filter">
+        <form action="/" method="get">
+          <div>
+            <label for="regions">Choose a region</label>
+            <select name="regions" id="regions">
+              <option value="">--Please choose an option--</option>
+              <option value="africa">Africa</option>
+              <option value="americas">Americas</option>
+              <option value="asia">Asia</option>
+              <option value="europe">Europe</option>
+              <option value="oceania">Oceania</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="search"> Search countries</label>
+            <input type="search" id="search" placeholder="Country" />
+            <button type="submit">Search</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="countries">
+        <template>
+          <article>
+            <p></p>
+            <p></p>
+            <picture><img src="" alt="" /></picture>
+          </article>
+        </template>
+      </section>
+    </main>
+
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>

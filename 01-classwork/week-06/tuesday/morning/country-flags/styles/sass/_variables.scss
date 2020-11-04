@@ -1,0 +1,26 @@
+// Variables
+$base-space: 1.25rem;
+$primary-color: black;
+$secondary-color: yellow;
+
+// Funciones
+// Con mixin creo la funcion
+@mixin createButton($border-color, $color) {
+  border: 1px solid $border-color;
+  color: $color;
+}
+
+@mixin flag() {
+  flex-basis: calc(25% - #{$base-space});
+  padding: $base-space 0.75rem;
+  margin-bottom: $base-space;
+  // con include llamo la funcion
+  @include createButton(gray, black);
+}
+
+// Utilizando @extends puedo incluir los siguientes pares de propiedades y valores
+// dentro de un bloque de CSS
+%carmen {
+  background-color: purple;
+  font-size: 4rem;
+}

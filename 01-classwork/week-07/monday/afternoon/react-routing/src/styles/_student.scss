@@ -1,0 +1,13 @@
+.students {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.student {
+  border: 1px solid;
+  padding: 1.25rem;
+  flex-basis: calc(25% - 1.25rem);
+  margin-bottom: 1.25rem;
+}

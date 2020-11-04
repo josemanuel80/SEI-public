@@ -1,0 +1,45 @@
+/*color de fondo = #fafafa*/
+/*azul del bóton = #3897f0*/
+/*color del borde = #e6e6e6*/
+/*color del los enlazes de pie de página = #003569*/
+/*gris del texto = #999*/
+* {
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: 'Karla', sans-serif;
+  background-color: #e6e6e6;
+}
+body {
+  display: inline-flex;
+}
+
+div a {
+  background-color: #fafafa;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+div :nth-of-type(2) {
+  text-decoration-line: none;
+  color: #999;
+  font-weight: bolder;
+}
+
+div :nth-of-type(3) {
+  text-align: center;
+  text-decoration-line: none;
+  color: #fafafa;
+  font-weight: bold;
+  background-color: #3897f0;
+}
+
+span a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}

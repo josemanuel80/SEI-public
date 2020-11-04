@@ -1,0 +1,50 @@
+/*Header */
+
+header {
+  background-color: black;
+  border-bottom: yellow 4px solid;
+}
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+header h1 {
+  color: yellow;
+}
+
+header .wrapper ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+header .wrapper ul li {
+  margin-left: 1rem;
+}
+
+header .wrapper ul li a {
+  color: white;
+}
+
+header .wrapper ul li:first-of-type a,
+header .wrapper ul li:nth-of-type(2) a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header .wrapper ul li:last-of-type a {
+  color: yellow;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0 1rem;
+  }
+
+  header .wrapper nav {
+    display: none;
+  }
+}

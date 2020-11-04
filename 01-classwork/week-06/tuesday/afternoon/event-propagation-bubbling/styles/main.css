@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+section,
+article,
+div {
+  border: 1px solid;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}

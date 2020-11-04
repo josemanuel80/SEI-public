@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  &:hover {
+    border-bottom: 1px solid currentColor;
+  }
+  &:focus {
+    color: grey;
+  }
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

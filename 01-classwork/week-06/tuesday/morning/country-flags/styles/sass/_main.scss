@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+picture {
+  display: block;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+main {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.filter {
+  margin-bottom: $base-space;
+}
+
+.filter form {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .filter form label[for='regions'] {
+  visibility: hidden;
+} */
+
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  article {
+    @include flag();
+
+    &:nth-of-type(4n) {
+      margin-right: 0;
+    }
+
+    p:first-of-type {
+      font-size: $base-space;
+      font-weight: bold;
+      margin-top: 0;
+    }
+  }
+}
