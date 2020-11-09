@@ -1,0 +1,18 @@
+[game_factories] {bgcolor: "#fcecec"}
+game_factory_id { label: "INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY"}
+name {label: "VARCHAR(255)"}
+location {label: "VARCHAR(255)"}
+market_value {label: "MONEY"}
+
+[games] {bgcolor: "#d0e0d0"}
+game_factory_id {label: "game_factory_id INT REFERENCES game_factories(game_factory_id)"}
+name {label: "VARCHAR(255)"}
+game_id {label: "INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY"}
+year {label: "DATE(YEAR)"}
+platforms {label: "VARCHAR(255)"}
+PEGI {label: "VARCHAR(255)"}
+sales {label: "MONEY"}
+genre {label: "VARCHAR(255)"}
+
+
+game_factories 1--* games

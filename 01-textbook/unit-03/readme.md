@@ -33,3 +33,6 @@
 - [Brief](./project/readme.md)
 
  - [video - sesión mañana Martes 27 de Octubre 📽](https://generalassembly.zoom.us/rec/share/0ptDGiDdrLlR64_4Dj8uWZhBSMtnE6ZanLhRTf-w4RpsIE3ZQNokGSIZ-HzZnpwu.G7L9-i7MQ5cW8wjX)(**pascode**: `!!RH&tR6`)
+ 
+ - [video - sesión mañana Viernes 30 de Octubre 📽](https://generalassembly.zoom.us/rec/share/fa3WmVedAQeNQcvc7IDa1PLjMFcygP8vnHR3RNBnJMYINvqNvK66vbn-CV6yB02p.odQIYKITgVdaCyvV)(**pascode**: `G@F!9?Rz`)
+ 
